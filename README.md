@@ -1,7 +1,7 @@
 # Ujian Akhir Semester 
 
 <br>Mata Kuliah 	: Dasar Pemrograman
-<br> Nama		      : Yunisa Dwi Indrayani
+<br> Nama		: Yunisa Dwi Indrayani
 <br>NIM		        :	1227050135
 <br>Jurusan	    	: [Teknik Informatika](http://if.uinsgd.ac.id/) [UIN Sunan Gunung Djati Bandung](https://uinsgd.ac.id/) 
 
@@ -17,14 +17,14 @@ Soal:
 
 ##Source Code
 
-  #include <iostream>
-  #include <iomanip> 
-  using namespace std;
+	#include <iostream>
+ 	#include <iomanip> 
+ 	using namespace std;
  
-  int main()
-  {
+ 	 int main()
+ 	 {
 	int matriks[100][100];
-  int baris, kolom, b, k;
+	int baris, kolom, b, k;
   
 	cout << "Nama : Yunisa Dwi Indrayani" <<endl;
 	cout << "NIM  : 1227050135" <<endl;
@@ -46,9 +46,9 @@ Soal:
 		
 		cout << "Baris " <<b+1<<", Kolom "<<k+1<< " = ";
       	cin >> matriks[b][k];
-    }
-    cout << endl;
-    }
+   	}
+   	cout << endl;
+   	}
   
 	cout << "=======================================================" <<endl;
  
@@ -59,9 +59,9 @@ Soal:
     	for(k = 0; k < kolom; k++){
 	
 	cout << setw(3) << matriks[b][k] << " ";
-    }
-    cout << endl;
-    }
+   	}
+   	cout << endl;
+    	}
   
   	cout << "=======================================================" <<endl;
   
@@ -71,9 +71,9 @@ Soal:
   	for (b = 0; b < kolom; b++) {
   		for (k = 0; k < baris; k ++) {
   			cout << " " << matriks[k][b];
-	   }
-	  cout <<endl <<endl;
-    }
+	 }
+	cout <<endl <<endl;
+    	}
   
   	cout << "===========================================================================" <<endl;
   	cout << "Program Menampilkan Bilangan Yang Habis dibagi 3,5,7 Pada Array 2 Dimensi" <<endl;
@@ -85,47 +85,47 @@ Soal:
 	for (int b = 0; b < kolom; b++){
 	for (int k = 0; k < baris; k++){
 		if (matriks[b][k] % 3 == 0|| matriks [b][k] % 5 ==0||matriks [b][k] %7 ==0) cout << matriks[b][k] << ", ";
-     }
-    }
+    	 }
+   	}
 
-   return 0;
-    }
+	return 0;
+   	}
 
 
 ##Output
 	
-Nama : Yunisa Dwi Indrayani
-NIM  : 1227050135
-=======================================================
-Program Input Nilai Menggunakan Baris Dan Kolom
-=======================================================
-Masukkan Jumlah Baris : 2
-Masukkan Jumlah Kolom : 3
+	Nama : Yunisa Dwi Indrayani
+	NIM  : 1227050135
+	=======================================================
+	Program Input Nilai Menggunakan Baris Dan Kolom
+	=======================================================
+	Masukkan Jumlah Baris : 2
+	Masukkan Jumlah Kolom : 3
 
-Baris 1, Kolom 1 = 4
-Baris 1, Kolom 2 = 5
-Baris 1, Kolom 3 = 6
+	Baris 1, Kolom 1 = 4
+	Baris 1, Kolom 2 = 5
+	Baris 1, Kolom 3 = 6
 
-Baris 2, Kolom 1 = 6
-Baris 2, Kolom 2 = 7
-Baris 2, Kolom 3 = 8
+	Baris 2, Kolom 1 = 6
+	Baris 2, Kolom 2 = 7
+	Baris 2, Kolom 3 = 8
 
--------------------------------------------------------
-Hasil Matriks:
-  4   5   6
-  6   7   8
--------------------------------------------------------
-Hasil Matriks Setelah Ditukar:
- 4 6
- 5 7
- 6 8
+	-------------------------------------------------------
+	Hasil Matriks:
+ 	 4   5   6
+ 	 6   7   8
+	-------------------------------------------------------
+	Hasil Matriks Setelah Ditukar:
+	 4 6
+	 5 7
+	 6 8
 
-===========================================================================
-Program Menampilkan Bilangan Yang Habis dibagi 3,5,7 Pada Array 2 Dimensi
-===========================================================================
-Bilangan Yang Habis Dibagi 3,5,7:
+	===========================================================================
+	Program Menampilkan Bilangan Yang Habis dibagi 3,5,7 Pada Array 2 Dimensi
+	===========================================================================
+	Bilangan Yang Habis Dibagi 3,5,7:
 
-5, 6, 7, 0, 0,
---------------------------------
-Process exited after 30.51 seconds with return value 0
-Press any key to continue . . .
+	5, 6, 7, 0, 0,
+	--------------------------------
+	Process exited after 30.51 seconds with return value 0
+	Press any key to continue . . .
