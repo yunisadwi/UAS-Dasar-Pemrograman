@@ -21,8 +21,8 @@ Soal:
  	#include <iomanip> 
  	using namespace std;
  
- 	 int main()
- 	 {
+ 	int main()
+ 	{
 	int matriks[100][100];
 	int baris, kolom, b, k;
   
@@ -31,8 +31,6 @@ Soal:
 	cout << "=======================================================" <<endl;
 	cout << "Program Input Nilai Menggunakan Baris Dan Kolom" <<endl;
 	cout << "=======================================================" <<endl;
-	
- 
   	cout << "Masukkan Jumlah Baris : ";
   	cin >> baris;
  
@@ -40,23 +38,22 @@ Soal:
 	cin >> kolom;
 	cout << endl;
  
-  	// proses input 
-  	for(b = 0; b < baris ; b++){
-    	for(k = 0; k < kolom; k++){
+ 	 // proses input 
+  		for(b = 0; b < baris ; b++) {
+  	  	for(k = 0; k < kolom; k++) {
 		
-		cout << "Baris " <<b+1<<", Kolom "<<k+1<< " = ";
+	cout << "Baris " <<b+1<<", Kolom "<<k+1<< " = ";
       	cin >> matriks[b][k];
    	}
    	cout << endl;
    	}
   
 	cout << "=======================================================" <<endl;
- 
   	cout << "Hasil matriks: " << endl;
- 
-  	// proses menampilkan array
-  	for(b = 0; b < baris ; b++){
-    	for(k = 0; k < kolom; k++){
+
+ 	 // proses menampilkan array
+  		for(b = 0; b < baris ; b++){
+    		for(k = 0; k < kolom; k++){
 	
 	cout << setw(3) << matriks[b][k] << " ";
    	}
@@ -64,27 +61,26 @@ Soal:
     	}
   
   	cout << "=======================================================" <<endl;
-  
   	cout << "Hasil matriks setelah ditukar: " << endl;
   
-  	//proses menukar baris dan kolom
-  	for (b = 0; b < kolom; b++) {
-  		for (k = 0; k < baris; k ++) {
-  			cout << " " << matriks[k][b];
+  	 //proses menukar baris dan kolom
+  		for (b = 0; b < kolom; b++) {
+  			for (k = 0; k < baris; k ++) {
+  				cout << " " << matriks[k][b];
 	 }
 	cout <<endl <<endl;
     	}
   
-  	cout << "===========================================================================" <<endl;
-  	cout << "Program Menampilkan Bilangan Yang Habis dibagi 3,5,7 Pada Array 2 Dimensi" <<endl;
-  	cout << "===========================================================================" <<endl;
+  		cout << "===========================================================================" <<endl;
+  		cout << "Program Menampilkan Bilangan Yang Habis dibagi 3,5,7 Pada Array 2 Dimensi" <<endl;
+  		cout << "===========================================================================" <<endl;
   	
-  	cout << "Bilangan Yang Habis Dibagi 3,5,7: "<<endl<<endl;
+  		cout << "Bilangan Yang Habis Dibagi 3,5,7: "<<endl<<endl;
   	
-  	// Menampilkan bilangan yang habis di bagi 3,5,7
-	for (int b = 0; b < kolom; b++){
-	for (int k = 0; k < baris; k++){
-		if (matriks[b][k] % 3 == 0|| matriks [b][k] % 5 ==0||matriks [b][k] %7 ==0) cout << matriks[b][k] << ", ";
+  		// Menampilkan bilangan yang habis di bagi 3,5,7
+		for (int b = 0; b < kolom; b++){
+		for (int k = 0; k < baris; k++){
+			if (matriks[b][k] % 3 == 0|| matriks [b][k] % 5 ==0||matriks [b][k] %7 ==0) cout << matriks[b][k] << ", ";
     	 }
    	}
 
