@@ -2,7 +2,7 @@
 
 <br>Mata Kuliah 	: Dasar Pemrograman
 <br> Nama		: Yunisa Dwi Indrayani
-<br>NIM		        :	1227050135
+<br>NIM		        : 1227050135
 <br>Jurusan	    	: [Teknik Informatika](http://if.uinsgd.ac.id/) [UIN Sunan Gunung Djati Bandung](https://uinsgd.ac.id/) 
 
 
@@ -38,6 +38,7 @@ Soal:
 	cin >> kolom;
 	cout << endl;
  
+ 
  	 // proses input 
   	for(b = 0; b < baris ; b++) {
   	  for(k = 0; k < kolom; k++) {
@@ -49,6 +50,7 @@ Soal:
    	}
   
 	cout << "=======================================================" <<endl;
+	
   	cout << "Hasil matriks: " << endl;
 
  	 // proses menampilkan array
@@ -63,6 +65,7 @@ Soal:
   	cout << "=======================================================" <<endl;
   	cout << "Hasil matriks setelah ditukar: " << endl;
   
+  
   	//proses menukar baris dan kolom
   	for (b = 0; b < kolom; b++) {
   		for (k = 0; k < baris; k ++) {
@@ -71,12 +74,13 @@ Soal:
 	cout <<endl <<endl;
     	}
   
-  		cout << "===========================================================================" <<endl;
-  		cout << "Program Menampilkan Bilangan Yang Habis dibagi 3,5,7 Pada Array 2 Dimensi" <<endl;
-  		cout << "===========================================================================" <<endl;
+  	 cout << "===========================================================================" <<endl;
+  	 cout << "Program Menampilkan Bilangan Yang Habis dibagi 3,5,7 Pada Array 2 Dimensi" <<endl;
+  	 cout << "===========================================================================" <<endl;
   	
-  		cout << "Bilangan Yang Habis Dibagi 3,5,7: "<<endl<<endl;
+  	 cout << "Bilangan Yang Habis Dibagi 3,5,7: "<<endl<<endl;
   	
+	
   	// Menampilkan bilangan yang habis di bagi 3,5,7
 	for (int b = 0; b < kolom; b++){
 	for (int k = 0; k < baris; k++){
